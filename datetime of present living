@@ -1,0 +1,4 @@
+from datetime import date
+a=date(2005,11,18)
+b=date(2026,4,29)
+print("No of days she lived:",(b-a).total_seconds()/3600)
