@@ -1,0 +1,19 @@
+maths = ["Raju", "Anu", "Arjun", "Lala", "Pavi"]
+political=["Mera", "Anu", "John", "Alice", "Pavi"]
+social=["Raju", "Arjun", "Chris", "lalith", "Ravi"]
+m=set(maths)
+p=set(political)
+s=set(social)
+
+one=list(m&p&s)
+print(one)
+
+a=(m&p)
+b=(p&s)
+c=(s&m)
+print(a)
+print(b)
+print(c)
+
+two=(a|b|c)-(m&p&s)
+print(list(two))
