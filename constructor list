@@ -1,0 +1,17 @@
+class CIRCLE:
+    def __init__ (self):
+        x=int(input("Enter radius:"))
+        self.radius=x 
+    
+    def display(self):
+        print("Area of circle: ",3.14*self.radius**2)
+
+   
+
+a=int(input("Enter number of Circles:"))
+circles=[]
+for i in range(a):
+    c=CIRCLE()
+    circles.append(c)
+    c.display()
+    print("___________________________")
